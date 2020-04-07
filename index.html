@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <meta charset = "UTF-8">
+    <title>Smile Design - Home</title>
+    <link rel="stylesheet" type="text/css" href="./styleSheet/styles.css"></link>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap"> 
+
+    <script type="text/javascript" src="./JS/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="./JS/main.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <!--Navbar div element-->
+
+        <div class="optionBarTop">
+
+            <div id="introductionNav" class="navbarLink"><a href="index.html#introductionRef">Introduction</a></div>
+            <div id="aboutNav" class="navbarLink"><a href="index.html#aboutDzitzerRef">About Dr. Dzitzer</a></div>
+            <div id="contactNav" class="navbarLink"><a href="index.html#contactDzitzerRef">Contact Dr. Dzitzer</a></div>
+            <div id="bAndANav" class="navbarLink"><a href="index.html#bAndAGalleryRef">The Before and After Gallery</a></div>
+            <div id="testimonyNav" class="navbarLink"><a href="index.html#testimoniesRef">Happy Patient Testimonies</a></div>
+            
+        </div>
+    </nav>
+
+    <div class="padWrapper"></div>
+
+    <div class="mainWrapper">
+        <!--Main Content of webpage goes in this div element-->
+
+        <div id="introductionRef"></div>
+        <div id="info" class="introduction">
+            <!--Introduction section for Dr. Dzitzer-->
+
+        </div>
+
+        <div id="aboutDzitzerRef"></div>
+        <div id="info" class="aboutDzitzer">
+            <!--About section for Dr. Dzitzer-->
+
+        </div>
+
+        <div id="contactDzitzerRef"></div>
+        <div id="info" class="contactDzitzer">
+            <!--Contact section for Dr. Dzitzer -->
+
+            <div class="contactDzitzerContent">
+
+                <div class="contactDzitzerTitle" text-align="center"><h1>Visit My Office</h1></div>
+                <br />
+                <div class="contactDzitzerTitleA" text-align="center"><h2>10 Kappella Avenue</h2></div>
+                <div class="contactDzitzerTitleB" text-align="center"><h2>Somers Point, NJ 08244</h2></div>
+                <div class="contactDzitzerTitleC" text-align="center"><h2>Hours: By Appointment</h2></div>
+                <div class="contactDzitzerTitleC" text-align="center"><h2>Phone: 609-927-9100</h2></div>
+                
+                <div id="map"></div>
+
+                <!--Google Maps API plugin, div element map must have an id-->
+
+                <!--call officeMap.js-->
+                <script src="./JS/officeMap.js" type="text/javascript"></script>
+                <!--call google maps API-->
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOdn8LcZunIUOGgnEHnuM397r3_QZ1GDU&callback=initMap" type="text/javascript"></script>
+            </div>
+
+        </div>
+
+        <div id="bAndAGalleryRef"></div>
+        <div id="info" class="bAndAGallery">
+            <!--Before and After Gallery section for Dr. Dzitzer-->
+
+        </div>
+
+        <div id="testimoniesRef"></div>
+        <div id="info" class="testimonies">
+            <!--Testimonies section for Dr. Dzitzer, videos use webM format-->
+
+            <div class="testimoniesVideos">
+
+                <div class="testimoniesVideosTitle" text-align="center"><h1>Happy Patient Testimonies</h1></div>
+
+                <video width="560" height="420" controls="controls">
+                <source src="./testimonials/Barbara-Little_s-Testimonial.webm" type="video/webm">
+                </video>
+
+                <video width="560" height="420" controls="controls">
+                <source src="./testimonials/Michele_s-Testimonial.webm" type="video/webm">
+                </video>
+
+                <video width="560" height="420" controls="controls">
+                <source src="./testimonials/Rich-Lee_s-Testimonial.webm" type="video/webm">
+                </video>
+
+                <video width="560" height="420" controls="controls">
+                <source src="./testimonials/Ruth_Townsend's_Testimonial.webm" type="video/webm">
+                </video>
+
+                <p text-align="center">I invite you to visit my YouTube channel to view all of my 
+                <a href="https://www.youtube.com/channel/UC3Y6kfXAA95Sz9k6Wgwtz7w">Happy Patient Testimonies.</a></p>
+
+            </div>
+
+            <div class="testimoniesWordOfMouth">
+
+            <!--Import the Yelp reviews as paragraphs, yelp reviews will be encased into its own div element-->
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <!--Footer div element-->
+
+        <div class="optionBarBottom">
+
+        </div>
+    </div>
+
+</body>
+
+</html>

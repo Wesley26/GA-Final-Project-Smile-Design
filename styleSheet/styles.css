@@ -1,0 +1,129 @@
+/* Main style sheet - Styles for index.html */
+
+body {
+    background-color: aquamarine;
+    background-image: url("./bgimages/bluwhit2.gif");
+    background-repeat: repeat;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    font-family: "Patua One", cursive;
+}
+
+.scroll-anchor {
+    /* css used to anchor to top of the window, refer to main.js */
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 90%;
+    }
+    .scroll-anchor-mainWrapper {
+        padding: 7%;
+}
+
+/* Top of the webpage begins here */
+
+.navbar {
+    display: flex; 
+    margin: 2%;
+    border: 4px solid rgb(31, 115, 121);
+    border-radius: 5px;
+    padding: 2%;
+    background-image: url("./bgimages/borawater.gif");
+    }
+    .navbar .optionBarTop {
+        display: flex;
+        height: 100px;
+        width: 1280px;
+        background: rgba(154, 197, 211, 0.7);
+    }
+    .navbar .optionBarTop .navbarLink {
+        display: flex;
+        padding-top: 2%;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        font-size: 150%;
+    }
+    .navbar .optionBarTop .navbarLink:hover {
+        background: rgba(97, 124, 133, 0.7);
+        font-size: 160%;
+    }
+    .navbar .optionBarTop .navbarLink a {
+        color: black;
+        text-decoration: transparent;
+    }
+    .navbar .optionBarTop .navbarLink a:hover {
+        color: rgb(40, 100, 150);
+    }
+    .navbar .optionBarTop .navbarLink a:active {
+        color: rgb(40, 134, 163);
+}
+
+/* Center of the webpage begins here */
+
+.mainWrapper {
+    display: grid; 
+    margin: 2%;
+    border: 4px solid rgb(31, 115, 121);
+    border-radius: 5px;
+    padding: 2%;
+    background-image: url("./bgimages/borawater.gif");
+    }
+    .mainWrapper #info {
+        display: flex;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height: max-content;
+        width: 1280px;
+        background: rgba(154, 197, 211, 0.7);
+        }
+
+        /* ContactDzitzer page styles*/
+        .mainWrapper .contactDzitzer {
+            justify-content: space-evenly;
+            text-align: center;
+            padding-bottom: 3%;
+        }
+        .mainWrapper .contactDzitzer .contactDzitzerContent #map {
+            height: 600px;
+            width: 800px;
+        }
+
+        /* Testimonies page styles */
+        .mainWrapper .testimonies {
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        .mainWrapper .testimonies .testimoniesVideos p {
+            font-size: x-large;
+        }
+        .mainWrapper .testimonies .testimoniesVideos p a {
+            color: black;
+            text-decoration: transparent;
+        }
+        .mainWrapper .testimonies .testimoniesVideos p a:hover {
+            color: rgb(40, 100, 150);
+        }
+        .mainWrapper .testimonies .testimoniesVideos p a:active {
+            color: rgb(40, 134, 163);
+}
+
+/* Bottom of the webpage begins here */
+
+.footer {
+    display: flex;
+    margin: 2%;
+    border: 4px solid rgb(31, 115, 121);
+    border-radius: 5px;
+    padding: 2%;
+    background-image: url("./bgimages/borawater.gif");
+    }
+    .footer .optionBarBottom {
+        display: flex;
+        height: 100px;
+        width: 1280px;
+        background: rgba(154, 197, 211, 0.7);
+}
