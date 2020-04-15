@@ -36,6 +36,35 @@
         <div id="info" class="introduction">
             <!--Introduction section for Dr. Dzitzer-->
 
+            <div class="tourContainer">
+                <!--one tourShow div element class per image-->
+                <div class="tourShow fade">
+                    <img src="./images/tour1.jpg">
+                </div>
+
+                <div class="tourShow fade">
+                    <img src="./images/tour2.jpg">
+                </div>
+
+                <div class="tourShow fade">
+                    <img src="./images/tour3.jpg">
+                </div>
+
+                <div class="tourShow fade">
+                    <img src="./images/tour4.jpg">
+                </div>
+
+                <div class="tourShow fade">
+                    <img src="./images/tour5.jpg">
+                </div>
+
+                <a class="left" onclick="nextImg(-1)">Previous</a>
+                <a class="right" onclick="nextImg(1)">Next</a>
+            </div>
+
+            <!--call introPhotos.js-->
+            <script src="./JS/introPhotos.js" type="text/javascript"></script>
+
         </div>
 
         <div id="aboutDzitzerRef"></div>

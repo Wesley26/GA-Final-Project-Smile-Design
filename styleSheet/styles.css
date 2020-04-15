@@ -81,11 +81,78 @@ body {
         background: rgba(154, 197, 211, 0.7);
         }
 
+        /* Introduction page styles */
+        .mainWrapper .introduction {
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        .mainWrapper .introduction .tourContainer {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+            padding-bottom: 3%;
+            padding-top: 3%;
+        }
+        .mainWrapper .introduction .tourContainer .tourShow {
+            display: none;
+            }
+            .tourShow img {
+                height: 100%;
+                width: 100%;
+            }
+
+        .mainWrapper .introduction .tourContainer .left, .mainWrapper .introduction .tourContainer .right {
+            cursor: pointer;  
+            position: relative;  
+            top: 50%;  
+            width: auto;  
+            padding: 16px;  
+            margin-top: -22px; 
+            font-weight: bold;  
+            font-size: xx-large;
+            transition: 0.6s ease;  
+            border-radius: 0 3px 3px 0;
+            }
+            .right {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+            }
+            .mainWrapper .introduction .tourContainer .left:hover, .mainWrapper .introduction .tourContainer .right:hover {
+                color: rgb(40, 100, 150);
+            }
+            .mainWrapper .introduction .tourContainer .left:active, .mainWrapper .introduction .tourContainer .right:active {
+                color: rgb(40, 134, 163);
+            }
+            /* Fade animation styles for each image, exclusive to introduction element page styles */  
+            .fade {  
+            -webkit-animation-name: fade;  
+            -webkit-animation-duration: 1.5s;  
+            animation-name: fade;  
+            animation-duration: 1.5s;  
+            }  
+            @-webkit-keyframes fade {  
+                from {  
+                    opacity: .4  
+                }  
+                to {  
+                    opacity: 1  
+                }  
+            }  
+            @keyframes fade {  
+                from {  
+                    opacity: .4  
+                }  
+                to {  
+                    opacity: 1  
+                }
+        }
+
         /* ContactDzitzer page styles*/
         .mainWrapper .contactDzitzer {
             justify-content: space-evenly;
             text-align: center;
             padding-bottom: 3%;
+            padding-top: 3%;
         }
         .mainWrapper .contactDzitzer .contactDzitzerContent #map {
             height: 600px;
@@ -96,6 +163,8 @@ body {
         .mainWrapper .testimonies {
             justify-content: space-evenly;
             text-align: center;
+            padding-bottom: 3%;
+            padding-top: 3%;
         }
         .mainWrapper .testimonies .testimoniesVideos p {
             font-size: x-large;
