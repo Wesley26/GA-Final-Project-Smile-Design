@@ -147,6 +147,34 @@ body {
                 }
         }
 
+        /* AboutDzitzer page styles */
+        .mainWrapper .aboutDzitzer {
+            justify-content: space-evenly;
+            text-align: center;
+            padding-bottom: 3%;
+            padding-top: 3%;
+            }
+            .mainWrapper .aboutDzitzer .aboutDzitzerContent {
+                padding-left: 3%;
+                padding-right: 3%;
+            }
+            .mainWrapper .aboutDzitzer .aboutDzitzerContent .aboutDzitzerContent2 {
+                text-align: center;
+                padding-left: 4%;
+                padding-right: 4%;
+                padding-bottom: 3%;
+                padding-top: 3%;
+                background-image: url("./bgimages/wavebkg.jpg");
+            }
+            .mainWrapper .aboutDzitzer .aboutDzitzerContent .aboutDzitzerContent2 .aboutDzitzerContent2Wrapper {
+                padding-bottom: 3%;
+                padding-top: 1%;
+                background-color: rgb(196, 195, 230);
+            }
+            .mainWrapper .aboutDzitzer .aboutDzitzerContent .aboutDzitzerContent2 .aboutDzitzerContent2Wrapper p {
+                font-size: larger;
+        }
+
         /* ContactDzitzer page styles*/
         .mainWrapper .contactDzitzer {
             justify-content: space-evenly;
@@ -157,6 +185,29 @@ body {
         .mainWrapper .contactDzitzer .contactDzitzerContent #map {
             height: 600px;
             width: 800px;
+        }
+
+        /* Before and After Gallery page styles */
+        .mainWrapper .bAndAGallery {
+            justify-content: space-evenly;
+            text-align: center;
+            padding-bottom: 3%;
+            padding-top: 3%;
+            }
+            .mainWrapper .bAndAGallery .bAndAGalleryContent {
+                display: grid;
+                width: 800px;
+            }  
+            .mainWrapper .bAndAGallery .bAndAGalleryContent .bAndAGalleryContentSlides {
+                padding-top: 1%;
+                padding-bottom: 3%;
+                background-color: #E8EAE9;
+                display: flex;
+                justify-content: center;
+                }
+                .mainWrapper .bAndAGallery .bAndAGalleryContent .bAndAGalleryContentSlides table {
+                    padding-left: 12%;
+                    padding-right: 12%;
         }
 
         /* Testimonies page styles */
@@ -178,6 +229,24 @@ body {
         }
         .mainWrapper .testimonies .testimoniesVideos p a:active {
             color: rgb(40, 134, 163);
+        }
+        .mainWrapper .testimonies .testimoniesVideos .testimoniesWordOfMouthBG {
+            margin: 2%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            background-image: url("./bgimages/wavebkg.jpg");
+        }
+        .mainWrapper .testimonies .testimoniesVideos .testimoniesWordOfMouth {
+            margin-left: 2%;
+            margin-right: 2%;
+            padding-left: 4%;
+            padding-right: 4%;
+            padding-top: 2%;
+            padding-bottom: 3%;
+            background-color: rgb(196, 195, 230);
+            }
+            .mainWrapper .testimonies .testimoniesVideos .testimoniesWordOfMouth p {
+                font-size: larger;
 }
 
 /* Bottom of the webpage begins here */
