@@ -264,4 +264,24 @@ body {
         height: 100px;
         width: 1280px;
         background: rgba(154, 197, 211, 0.7);
+    }
+    .footer .optionBarBottom .lastModOfWebpage {
+        width: 1280px;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .footer .optionBarBottom .lastModOfWebpage p {
+        font-size: larger;
+    }
+    .footer .optionBarBottom .lastModOfWebpage p a {
+        color: black;
+        text-decoration: transparent;
+    }
+    .footer .optionBarBottom .lastModOfWebpage p a:hover {
+        color: rgb(40, 100, 150);
+    }
+    .footer .optionBarBottom .lastModOfWebpage p a:active {
+        color: rgb(40, 134, 163);
+    
 }
