@@ -188,6 +188,12 @@ body {
         }
 
         /* Before and After Gallery page styles */
+        .modernSlide {
+            /* Required CSS style class to keep newer slides compatible with older slides */
+            height: 138px;
+            width: 200px;
+        }
+
         .mainWrapper .bAndAGallery {
             justify-content: space-evenly;
             text-align: center;
