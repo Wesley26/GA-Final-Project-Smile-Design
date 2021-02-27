@@ -727,12 +727,18 @@
                         /*
                         Embed when website was created.
                         */
-                        let pageCreated;
-                        pageCreated = document.lastModified;
-                        document.write("Website was modified: " + pageCreated);
+                        let pageCreated = document.lastModified;
+                        document.write(`Website was modified: ${pageCreated}`);
                     </script>
                     <br />
-                    2000 - 2020 All rights reserved Smile Design
+                    <script type="text/javascript">
+                        /*
+                        Embed copyright year
+                        */
+                        let currentDate = new Date;
+                        let currentYear = currentDate.getFullYear();
+                        document.write(`2000 - ${currentYear} All rights reserved Smile Design`);
+                    </script>
                     <br />
                     Website by <a href="https://wesleywebdev.com/">Wesley Dzitzer</a>
                 </p>

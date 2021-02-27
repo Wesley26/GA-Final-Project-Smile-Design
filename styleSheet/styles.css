@@ -9,6 +9,7 @@ body {
     padding: 10px;
     display: grid;
     font-family: "Patua One", cursive;
+    justify-items: center;
 }
 
 .scroll-anchor {
@@ -31,6 +32,7 @@ body {
     border-radius: 5px;
     padding: 2%;
     background-image: url("./bgimages/borawater.gif");
+    justify-content: center;
     }
     .navbar .optionBarTop {
         display: flex;
@@ -71,6 +73,7 @@ body {
     border-radius: 5px;
     padding: 2%;
     background-image: url("./bgimages/borawater.gif");
+    justify-content: center;
     }
     .mainWrapper #info {
         display: flex;
@@ -264,6 +267,7 @@ body {
     border-radius: 5px;
     padding: 2%;
     background-image: url("./bgimages/borawater.gif");
+    justify-content: center;
     }
     .footer .optionBarBottom {
         display: flex;
