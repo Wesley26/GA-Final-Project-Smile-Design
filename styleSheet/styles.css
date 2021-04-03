@@ -176,6 +176,11 @@ body {
             }
             .mainWrapper .aboutDzitzer .aboutDzitzerContent .aboutDzitzerContent2 .aboutDzitzerContent2Wrapper p {
                 font-size: larger;
+            }
+
+            .mainWrapper  .aboutDzitzer .aboutDzitzerContent .aboutDzitzerContent2  .aboutDzitzerContent2Wrapper .aboutDzitzerContent2Text {
+                padding-left: 10px;
+                padding-right: 10px;
         }
 
         /* ContactDzitzer page styles*/
