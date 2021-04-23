@@ -26,6 +26,13 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `Gary S. Mays Landing, NJ`,
+        reviewType: `5.0 star rating on Google 04/22/2021`,
+        reviewContent: `"My first visit to Doctor Dzitzer I was pleasantly surprised. Not only was I seen in timely manner 
+        but I also received professional and courteous service. I would recommend Doctor Dzitzer for anyone in need of 
+        dental care."`
+    },
+    {
         nameCity: `Paul S. Margate City, NJ`,
         reviewType: `5.0 star rating on Google 03/31/2021`,
         reviewContent: `"I had extensive reconstructive dental work done by Dr. Dzitzer which involved several crowns and implants. 
@@ -43,30 +50,6 @@ let testimoniesWordOfMouth = [
         and workmanship is exceptional. He is an artist in his field and very creative with his working lab just upstairs. 
         Again, it is such a comfort to know that such a caring dentist is a phone call away that would see me as soon 
         as possible. Very grateful!"`
-    },
-    {
-        nameCity: `Philip B. Ocean View, NJ`,
-        reviewType: `5.0 star rating on Yelp 2/16/2013`,
-        reviewContent: `"It's  been almost 2 months since I first saw Dr. Dzitzer upon referral from my oral surgeon, and I 
-        just want to reiterate that Dr. Mike is amazing. First of all, he schedules his office hours according 
-        to your schedule. He even saw me on weekends and a holiday. Secondly, he is extremely patient and explains 
-        every step of the process involving your case. His lab is on-site, and his work is exceptional. 
-        He is an absolute artist, and his expertise and knowledge are apparent when you see the results of his work. 
-        I highly recommend Dr. Mike; as someone who was always phobic when it came to dentists, 
-        I can assure you that he will set your mind at ease as he works with you. His office is relatively small, 
-        but that's just because your money will be put where your mouth is. Dr. Michael Dzitzer is excellent."`
-    },
-    {
-        nameCity: `Philip B. Ocean View, NJ`,
-        reviewType: `5.0 star rating on Yelp 1/1/2013`,
-        reviewContent: `"Dr. Dzitzer is amazing. Regarding both his impeccable skills and caring, compassionate bedside manner, 
-        you will not find a better dentist to meet your needs. After not having seen a dentist for decades our of 
-        sheer fear, I unfortunately needed major restorative, prosthetic work. After walking in his office with no 
-        teeth whatsoever I had a full set of teeth again in two weeks that look and feel wonderful. 
-        What sets Dr. Dzitzer apart from the rest is how he works to accommodate your schedule, 
-        even making appointments on holidays as well as his patience in explaining what he is doing and how and why 
-        he is doing it every step of the way. I am EXTREMELY happy that my oral surgeon recommended him, and I 
-        HIGHLY recommend Dr. Dzitzer."`
     },
     {
         nameCity: `Jackie B. Cape May County, NJ`,
@@ -88,6 +71,30 @@ let testimoniesWordOfMouth = [
         reviewContent: `"You'd be hard pressed to find a dentist more skilled in the art of reconstructive and general dentistry. 
         Been a patient for many years and am beyond thankful to have been referred to him. 
         Dr Dzitzer makes a dental visit a pleasant experience."`
+    },
+    {
+        nameCity: `Philip B. Ocean View, NJ`,
+        reviewType: `5.0 star rating on Yelp 1/1/2013`,
+        reviewContent: `"Dr. Dzitzer is amazing. Regarding both his impeccable skills and caring, compassionate bedside manner, 
+        you will not find a better dentist to meet your needs. After not having seen a dentist for decades our of 
+        sheer fear, I unfortunately needed major restorative, prosthetic work. After walking in his office with no 
+        teeth whatsoever I had a full set of teeth again in two weeks that look and feel wonderful. 
+        What sets Dr. Dzitzer apart from the rest is how he works to accommodate your schedule, 
+        even making appointments on holidays as well as his patience in explaining what he is doing and how and why 
+        he is doing it every step of the way. I am EXTREMELY happy that my oral surgeon recommended him, and I 
+        HIGHLY recommend Dr. Dzitzer."`
+    },
+    {
+        nameCity: `Philip B. Ocean View, NJ`,
+        reviewType: `5.0 star rating on Yelp 2/16/2013`,
+        reviewContent: `"It's  been almost 2 months since I first saw Dr. Dzitzer upon referral from my oral surgeon, and I 
+        just want to reiterate that Dr. Mike is amazing. First of all, he schedules his office hours according 
+        to your schedule. He even saw me on weekends and a holiday. Secondly, he is extremely patient and explains 
+        every step of the process involving your case. His lab is on-site, and his work is exceptional. 
+        He is an absolute artist, and his expertise and knowledge are apparent when you see the results of his work. 
+        I highly recommend Dr. Mike; as someone who was always phobic when it came to dentists, 
+        I can assure you that he will set your mind at ease as he works with you. His office is relatively small, 
+        but that's just because your money will be put where your mouth is. Dr. Michael Dzitzer is excellent."`
     },
     {
         nameCity: `John L. Atlantic City, NJ`,
