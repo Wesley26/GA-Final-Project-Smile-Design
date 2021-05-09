@@ -26,15 +26,22 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `Carrie F. Cape May County, NJ`,
+        reviewType: `5.0 star rating on Google 5/5/2021`,
+        reviewContent: `"I have been a patient of Dr. Dzitzer for many years. He is an excellent dentist who takes pride
+        in his work paying attention to detail and customer satisfaction. I highly recommend him for any reconstructive
+        needs you may have."`,
+    },
+    {
         nameCity: `Gary S. Mays Landing, NJ`,
-        reviewType: `5.0 star rating on Google 04/22/2021`,
+        reviewType: `5.0 star rating on Google 4/22/2021`,
         reviewContent: `"My first visit to Doctor Dzitzer I was pleasantly surprised. Not only was I seen in timely manner 
         but I also received professional and courteous service. I would recommend Doctor Dzitzer for anyone in need of 
         dental care."`
     },
     {
         nameCity: `Paul S. Margate City, NJ`,
-        reviewType: `5.0 star rating on Google 03/31/2021`,
+        reviewType: `5.0 star rating on Google 3/31/2021`,
         reviewContent: `"I had extensive reconstructive dental work done by Dr. Dzitzer which involved several crowns and implants. 
         Dr. D was so extremely patient, and spent extra time preparing the proper results. He was very concise with 
         the total execution. I am the third member of our direct family to have Dr. Dzitzer as our dental professional 
