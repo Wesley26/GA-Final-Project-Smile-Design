@@ -26,6 +26,17 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `Jill F. Bryn Mawr, PA`,
+        reviewType: `5.0 star rating on Yelp 7/13/2021`,
+        reviewContent: `"Dr Dzitzer DDS is an absolute miracle worker. My first visit was an emergency regarding a front cap 
+        that dislodged for the 2nd time. It was quite a complicated situation but using ingenuity and skill Dr Dzitzer was able 
+        to create a "crown" that looks and feels perfect. I was exceedingly impressed with Dr Dzitzer. His chair side manner is 
+        professional, direct, and charming -- putting me at ease as he explained every step in the process. I am a 65 year old 
+        woman with 18 dental implants so I have too much experience with dentistry and dentists. I feel so lucky to have found 
+        Dr Dzitzer and intend on becoming his full time patient. I would recommend him wholeheartedly for all of your dental 
+        needs."`,
+    },
+    {
         nameCity: `Carrie F. Cape May County, NJ`,
         reviewType: `5.0 star rating on Google 5/5/2021`,
         reviewContent: `"I have been a patient of Dr. Dzitzer for many years. He is an excellent dentist who takes pride
