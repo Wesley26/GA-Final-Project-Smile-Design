@@ -5,3 +5,4 @@ My Final Project for the General Assembly JavaScript Circuit course. This websit
 
 Website is viewable here: [Smile Design Website](https://www.smiledesign-nj.com/)
 jQuery documentation: [jQuery](https://jquery.com/download/)
+

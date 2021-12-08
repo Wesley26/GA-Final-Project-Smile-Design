@@ -26,6 +26,14 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `Patricia H. Northfield, NJ`,
+        reviewType: `5.0 star rating on Google 11/28/2021`,
+        reviewContent: `"I have been a patient with Dr. Dzitzer’s  practice for over 30 years and he is always very
+        professional, extremely compassionate and really good at what he does. I always leave the office with a big smile,
+        full of confidence and ready to face the world. There is always a sense of security in knowing if any problems should
+        arise he will be there. Thank you again Dr. D for all you do for me and our military family."`,
+    },
+    {
         nameCity: `Jill F. Bryn Mawr, PA`,
         reviewType: `5.0 star rating on Yelp 7/13/2021`,
         reviewContent: `"Dr Dzitzer DDS is an absolute miracle worker. My first visit was an emergency regarding a front cap 
