@@ -26,6 +26,20 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `David S. Northfield, NJ`,
+        reviewType: `5.0 star rating on Google 04/05/2022`,
+        reviewContent: `"I don’t write these too often but then again how many folks have a truly great experience
+        with the dentist? No offense to the profession …. But Dr. Dzitzer is fantastic - patient, conversational
+        and explains everything in detail with how he’s going to approach the work that you need to have done.
+        In my case I was told I needed implants which just didn’t feel right to me let alone being very expensive
+        - he took a good look at my mouth and immediately stated that implants would be fine but he seemed
+        surprised  nobody brought up crowns - so we went with the crowns much more affordable and they are
+        perfectly fine for what I needed - and he actually thought it was a better idea for me - he’s a
+        craftsman and he takes his business very seriously  - above all He’s a consultant not a sales person
+        and gave me what I needed - that’s called integrity! Highly recommended with a great location
+        in Somers Point."`
+    },
+    {
         nameCity: `Patricia H. Northfield, NJ`,
         reviewType: `5.0 star rating on Google 11/28/2021`,
         reviewContent: `"I have been a patient with Dr. Dzitzer’s  practice for over 30 years and he is always very
