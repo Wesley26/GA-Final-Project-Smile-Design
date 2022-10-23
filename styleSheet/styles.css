@@ -25,6 +25,8 @@ body {
 
 /* Top of the webpage begins here */
 
+@media (min-width: 730px) {
+/* Navbar for large sized screens */
 .navbar {
     display: flex; 
     margin: 2%;
@@ -62,6 +64,49 @@ body {
     }
     .navbar .optionBarTop .navbarLink a:active {
         color: rgb(40, 134, 163);
+}
+}
+
+@media (max-width: 729px) {
+/* Navbar for small sized screens */
+.navbar {
+    display: flex; 
+    margin: 2%;
+    border: 4px solid rgb(31, 115, 121);
+    border-radius: 5px;
+    padding: 2%;
+    background-image: url("./bgimages/borawater.gif");
+    justify-content: center;
+    }
+    .navbar .optionBarTop {
+        display: flex;
+        height: 100px;
+        width: 1280px;
+        background: rgba(154, 197, 211, 0.7);
+    }
+    .navbar .optionBarTop .navbarLink {
+        display: flex;
+        padding-top: 2%;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        font-size: 100%;
+    }
+    .navbar .optionBarTop .navbarLink:hover {
+        background: rgba(97, 124, 133, 0.7);
+        font-size: 110%;
+    }
+    .navbar .optionBarTop .navbarLink a {
+        color: black;
+        text-decoration: transparent;
+    }
+    .navbar .optionBarTop .navbarLink a:hover {
+        color: rgb(40, 100, 150);
+    }
+    .navbar .optionBarTop .navbarLink a:active {
+        color: rgb(40, 134, 163);
+}
 }
 
 /* Center of the webpage begins here */

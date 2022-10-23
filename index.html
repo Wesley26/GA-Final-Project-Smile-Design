@@ -5,8 +5,10 @@
     <meta charset = "UTF-8">
     <title>Smile Design - Dr. Dzitzer</title>
     <link rel="stylesheet" type="text/css" href="./styleSheet/styles.css"></link>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap">
+    <link rel="icon" href="./asset_backup/borawater.gif" />
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script type="text/javascript" src="./JS/jquery-3.6.0.js"></script>
     <script type="text/javascript" src="./JS/main.js"></script>
 
@@ -34,41 +36,7 @@
         <!--Main Content of webpage goes in this div element-->
 
         <div id="introductionRef"></div>
-        <div id="info" class="introduction">
-            <!--Introduction section for Dr. Dzitzer-->
-
-            <div class="tourContainer">
-                <div class="introductionIntro" text-align="center"><h1>Welcome!</h1></div>
-
-                <!--one tourShow div element class per image-->
-                <div class="tourShow fade">
-                    <img src="./images/tour1.jpg">
-                </div>
-
-                <div class="tourShow fade">
-                    <img src="./images/tour2.jpg">
-                </div>
-
-                <div class="tourShow fade">
-                    <img src="./images/tour3.jpg">
-                </div>
-
-                <div class="tourShow fade">
-                    <img src="./images/tour4.jpg">
-                </div>
-
-                <div class="tourShow fade">
-                    <img src="./images/tour5.jpg">
-                </div>
-
-                <a class="left" onclick="nextImg(-1)">Previous</a>
-                <a class="right" onclick="nextImg(1)">Next</a>
-            </div>
-
-            <!--call introPhotos.js-->
-            <script src="./JS/introPhotos.js" type="text/javascript"></script>
-
-        </div>
+        <script src="./JS/introduction.js"></script>
 
         <div id="aboutDzitzerRef"></div>
         <div id="info" class="aboutDzitzer">
@@ -174,300 +142,51 @@
                 <div class="bAndAGalleryTitle" text-align="center"><h1>Before and After Gallery</h1></div>
 
                 <div class="bAndAGalleryContentSlidesBackground">
-                <!-- New Slides Content Box-->
-                <div class="bAndAGalleryContentSlides">
+                <!-- New Slides Content Box (beforeAfterSet2)-->
                 <!-- This slide section requires img class 'modernSlide' to be compatible with other slides-->
-                    <table>
-                        <tr>
-                            <th><h2>Before</h2></th>
-                        </tr>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1038_before.jpg"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <th><h2>After</h2></th>
-                        </tr>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1038.jpg"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet2/beforeAfterRow0.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1039_before.jpg"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1039.jpg"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet2/beforeAfterRow1.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1041_before .jpg"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1041.jpg"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet2/beforeAfterRow2.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1044_before.jpg"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1044.jpg"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet2/beforeAfterRow3.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1045_before.jpg"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1045.jpg"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet2/beforeAfterRow4.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1047_before.jpg"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1047.jpg"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet2/beforeAfterRow5.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1049_before.jpg"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img class="modernSlide" src="./beforeAfter/1049.jpg"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet2/beforeAfterRow6.js"></script>
                 <br />
-                <!-- New Slides Content Box-->
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <th><h2>Before</h2></th>
-                        </tr>
-                        <tr>
-                            <td><img src="./beforeAfter/smil1b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <th><h2>After</h2></th>
-                        </tr>
-                        <tr>
-                            <td><img src="./beforeAfter/smil1aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                <!-- New Slides Content Box (beforeAfterSet1)-->
+                    <script src="./JS/beforeAfterJS/beforeAfterSet1/beforeAfterRow0.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil2b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil2aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet1/beforeAfterRow1.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil3b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil3aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet1/beforeAfterRow2.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil4b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil4aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet1/beforeAfterRow3.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil5b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil5aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet1/beforeAfterRow4.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil6b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil6aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet1/beforeAfterRow5.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil7b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil7aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet1/beforeAfterRow6.js"></script>
                 <br />
-                <!-- New Slides Content Box-->
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <th><h2>Before</h2></th>
-                        </tr>
-                        <tr>
-                            <td><img src="./beforeAfter/smil8b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <th><h2>After</h2></th>
-                        </tr>
-                        <tr>
-                            <td><img src="./beforeAfter/smil8aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                <!-- New Slides Content Box (beforeAfterSet0)-->
+                    <script src="./JS/beforeAfterJS/beforeAfterSet0/beforeAfterRow0.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil9b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil9aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet0/beforeAfterRow1.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil10b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil10aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet0/beforeAfterRow2.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil11b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil11aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet0/beforeAfterRow3.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil12b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil12aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet0/beforeAfterRow4.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil13b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil13aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet0/beforeAfterRow5.js"></script>
 
-                <div class="bAndAGalleryContentSlides">
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil14b4.gif"></td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td><img src="./beforeAfter/smil14aft.gif"></td>
-                        </tr>
-                    </table>
-                </div>
+                    <script src="./JS/beforeAfterJS/beforeAfterSet0/beforeAfterRow6.js"></script>
                 </div>
             </div>
 
@@ -475,7 +194,7 @@
 
         <div id="testimoniesRef"></div>
         <div id="info" class="testimonies">
-            <!--Testimonies section for Dr. Dzitzer, videos use webM format-->
+            <!--Testimonies section for Dr. Dzitzer, videos use mp4 format-->
 
             <div class="testimoniesVideos">
 
