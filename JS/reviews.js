@@ -28,12 +28,12 @@ let testimoniesWordOfMouth = [
     {
         nameCity: `Susan N. Mays Landing, NJ`,
         reviewType: `5.0 star rating on Google 11/01/2022`,
-        reviewContent: `Simply the BEST!! I came to Dr Dzitzer a complete mess.. HACKED by Affordable Dentures in Vineland,
+        reviewContent: `"Simply the BEST!! I came to Dr Dzitzer a complete mess.. HACKED by Affordable Dentures in Vineland,
         26 extractions with no aftercare or concern for my health and given a "temporary denture" that was ill fitting and useless,
         I found Dr Dzitzer... He has been SO PATIENT and explained each step with great care and maticulous attention
         to detail...I have my life and my smile back with full functionality of my mouth again!!! I STRONGLY RECOMMEND
         avoiding the "one day denture" procedure because Dr Dzitzer made things understandable and affordable for me.
-        Simply put? A full class act of a dentist and a human being ...`
+        Simply put? A full class act of a dentist and a human being ..."`
     },
     {
         nameCity: `David S. Northfield, NJ`,
