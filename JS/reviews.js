@@ -26,6 +26,11 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `Michele B. Absecon, NJ`,
+        reviewType: `5.0 star rating on Google 12/09/2022`,
+        reviewContent: `"Would not go to anyone else!! Dr Mike, will provide a beautiful smile and a correct bite!!"`,
+    },
+    {
         nameCity: `Susan N. Mays Landing, NJ`,
         reviewType: `5.0 star rating on Google 11/01/2022`,
         reviewContent: `"Simply the BEST!! I came to Dr Dzitzer a complete mess.. HACKED by a local dental office,
