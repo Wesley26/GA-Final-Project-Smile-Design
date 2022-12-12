@@ -26,7 +26,7 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
-        nameCity: `Michele B. Absecon, NJ`,
+        nameCity: `Michele B. Pleasantville, NJ`,
         reviewType: `5.0 star rating on Google 12/09/2022`,
         reviewContent: `"Would not go to anyone else!! Dr Mike, will provide a beautiful smile and a correct bite!!"`,
     },
