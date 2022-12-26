@@ -26,6 +26,13 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `Lis F. Egg Harbor Township, NJ`,
+        reviewType: `5.0 star rating on Google 12/26/2022`,
+        reviewContent: `"Dr. Dzitzer made my dental experience especially taking those dreaded impressions so easy and comfortable. 
+        Every step in the process was well explained with the necessary information to make informed decisions. Best dental experience
+        I have ever had, and I've had a few. Thank you Dr. Dzitzer for my brand new smile and your care."`,
+    },
+    {
         nameCity: `Michele B. Pleasantville, NJ`,
         reviewType: `5.0 star rating on Google 12/09/2022`,
         reviewContent: `"Would not go to anyone else!! Dr Mike, will provide a beautiful smile and a correct bite!!"`,
