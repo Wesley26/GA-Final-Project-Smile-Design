@@ -26,6 +26,15 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `Shee R. Somers Point, NJ`,
+        reviewType: `5.0 star rating on Google 01/11/2023`,
+        reviewContent: `"Dr. Dzitzer is incredible! He is a true craftsman, when it comes to all things dental reconstruction and chemistry.
+        He is a man of honor and integrity when it comes to his work. He did a beautiful 3 bridge piece for 3 of my front teeth. I was so
+        embarrassed but Dr. D always makes me feel like there is NOTHING to be embarrassed about with him. Even after my cancer diagnosis
+        and treatment, when my teeth got even WORSE, he managed to make me feel BETTER about it and hopeful! I had fractured the crown that
+        he created for me years back and he fixed it for me immediately! I'm so grateful for him! You want to go to him!!"`
+    },
+    {
         nameCity: `Lis F. Egg Harbor Township, NJ`,
         reviewType: `5.0 star rating on Google 12/26/2022`,
         reviewContent: `"Dr. Dzitzer made my dental experience especially taking those dreaded impressions so easy and comfortable. 
