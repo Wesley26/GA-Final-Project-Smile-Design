@@ -26,6 +26,13 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `David P. Woodbury, NJ`,
+        reviewType: `5.0 star rating on Google 02/10/2023`,
+        reviewContent: `"The best experience I've had with any dentist in my lifetime.
+        Well worth the trip. Not only an amazing dentist, but an outstanding person. I now have,
+        I hope for life, the only dentist I will ever need."`
+    },
+    {
         nameCity: `Shee R. Somers Point, NJ`,
         reviewType: `5.0 star rating on Google 01/11/2023`,
         reviewContent: `"Dr. Dzitzer is incredible! He is a true craftsman, when it comes to all things dental reconstruction and chemistry.
