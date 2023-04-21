@@ -26,6 +26,13 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `John G. Mays Landing, NJ`,
+        reviewType: `5.0 star rating on Google 02/15/2023`,
+        reviewContent: `"Dr. Dzitzer is always so patient and caring while providing the most informed and professional
+        dentistry. It is very rare to find in a person the deep interest and insights that Dr. Dzitzer provides
+        during my visits. I have been blessed with over 12 years of his dental care and personal caring."`,
+    },
+    {
         nameCity: `David P. Woodbury, NJ`,
         reviewType: `5.0 star rating on Google 02/10/2023`,
         reviewContent: `"The best experience I've had with any dentist in my lifetime.
