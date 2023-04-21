@@ -24,7 +24,7 @@ jQuery(function() {
 
             $(".navbar").removeClass("scroll-anchor");
             $(".padWrapper").removeClass("scroll-anchor-mainWrapper");
-        }
+        };
 
     });
 

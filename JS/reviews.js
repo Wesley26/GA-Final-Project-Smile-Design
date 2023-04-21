@@ -189,11 +189,12 @@ let testimoniesWordOfMouth = [
     },
 ];
 
-const dynamicTestimoniesW = testimoniesWordOfMouthW => {
+/**
+ * Hand written review generator
+ * @param testimoniesWordOfMouthW
+ */
 
-    /**
-     * Hand written review generator
-     */
+const dynamicTestimoniesW = testimoniesWordOfMouthW => {
 
     let theContentW = document.querySelector('.dynamicTestimoniesW');
     let listIndexW = 0;
@@ -233,37 +234,63 @@ const dynamicTestimoniesW = testimoniesWordOfMouthW => {
 
 };
 
+/**
+ * Google/Yelp review generator
+ * @param testimoniesWordOfMouth
+ */
+
 const dynamicTestimonies = testimoniesWordOfMouth => {
 
     /**
-     * Google/Yelp review generator
+     * arrow function which passes two params:
+     * @param {document querySelector class name to grab} theContentAlias 
+     * @param {list Index numerical value} listIndexAlias 
      */
 
-    let theContent = document.querySelector('.dynamicTestimonies');
-    let listIndex = 0;
-
-    for (let i = 0; i < testimoniesWordOfMouth.length; i++) {
+    const postDynamicTestimoniesHandler = (theContentAlias, listIndexAlias) => {
 
         let div = document.createElement('div');
         div.classList.add('testimoniesWordOfMouth');
+        div.setAttribute('id', `dynamicTestimony${listIndexAlias}`);
+        div.setAttribute('style', 'margin-top:1.5%;margin-bottom:1.5%');
 
         div.innerHTML = `
-        <p>${testimoniesWordOfMouth[listIndex].nameCity}</p>
-        <p>${testimoniesWordOfMouth[listIndex].reviewType}</p>
-        <p>${testimoniesWordOfMouth[listIndex].reviewContent}</p>
+        <p>${testimoniesWordOfMouth[listIndexAlias].nameCity}</p>
+        <p>${testimoniesWordOfMouth[listIndexAlias].reviewType}</p>
+        <p>${testimoniesWordOfMouth[listIndexAlias].reviewContent}</p>
         `
 
         let br = document.createElement('br');
         let br2 = document.createElement('br');
         let br3 = document.createElement('br');
 
-        theContent.appendChild(div);
-        theContent.appendChild(br);
-        theContent.appendChild(br2);
-        theContent.appendChild(br3);
-        
-        listIndex++
+        theContentAlias.appendChild(div);
+        theContentAlias.appendChild(br);
+        theContentAlias.appendChild(br2);
+        theContentAlias.appendChild(br3);
+
     };
+
+    /**
+     * posts full list of testimonies
+     * from testimoniesWordOfMouth object
+     */
+
+    const postAllDT = () => {
+
+        let theContent = document.querySelector('.dynamicTestimonies');
+        let listIndexOne = 0;
+
+        for (let i = 0; i < testimoniesWordOfMouth.length; i++) {
+
+            postDynamicTestimoniesHandler(theContent, listIndexOne);
+            listIndexOne++;
+
+        };
+
+    };
+
+    postAllDT();
 
 };
 
