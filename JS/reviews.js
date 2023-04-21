@@ -301,7 +301,31 @@ const dynamicTestimonies = testimoniesWordOfMouth => {
 
 };
 
+/**
+ * display initial virtual pages on first load
+ * Note: initialVirtualPageLoad function has to be located 
+ * here since we aren't using Node and already have
+ * an existing window onLoad function executed from here
+ */
+
+const initialVirtualPageLoad = () => {
+
+    let introductionWrapper = document.getElementById("introductionWrapper");
+    let aboutDzitzerWrapper = document.getElementById("aboutDzitzerWrapper");
+    let contactDzitzerWrapper = document.getElementById("contactDzitzerWrapper");
+    let bAndAGalleryWrapper = document.getElementById("bAndAGalleryWrapper");
+    let testimoniesWrapper = document.getElementById("testimoniesWrapper");
+
+    introductionWrapper.style.cssText = ``;
+    aboutDzitzerWrapper.style.cssText = ``;
+    contactDzitzerWrapper.style.cssText = ``;
+    bAndAGalleryWrapper.style.cssText = `display:none`;
+    testimoniesWrapper.style.cssText = `display:none`;
+
+};
+
 window.onload = () => {
     dynamicTestimoniesW(testimoniesWordOfMouthW);
     dynamicTestimonies(testimoniesWordOfMouth);
+    initialVirtualPageLoad();
 };
