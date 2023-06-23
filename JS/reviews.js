@@ -26,6 +26,13 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `Mark P. Egg Harbor Township, NJ`,
+        reviewType: `5.0 star rating on Yelp 06/20/2023`,
+        reviewContent: `"I went to another dental office for an upper denture repair.
+        40 minutes later, I get an estimate for $14,000 worth of dental work. I decided to look up a local dentist and
+        I happen to find Dr Dzitzer. He gives you a fair assessment. Do yourself a favor, Go see Dr Dzitzer you will not regret it."`,
+    },
+    {
         nameCity: `John G. Mays Landing, NJ`,
         reviewType: `5.0 star rating on Google 02/15/2023`,
         reviewContent: `"Dr. Dzitzer is always so patient and caring while providing the most informed and professional
