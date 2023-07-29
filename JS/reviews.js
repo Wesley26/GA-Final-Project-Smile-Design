@@ -33,6 +33,13 @@ let testimoniesWordOfMouth = [
         I happen to find Dr Dzitzer. He gives you a fair assessment. Do yourself a favor, Go see Dr Dzitzer you will not regret it."`,
     },
     {
+        nameCity: `Jacob F. Mays Landing, NJ`,
+        reviewType: `5.0 star rating on Google 07/29/2023`,
+        reviewContent: `"Dr. Dzitzer is great, he took my emergency appointment on a Saturday, and had my problem solved within an hour
+        of my phone call. I am not the best dental patient, but he was very gentle and kept me calm throughout my procedure.
+        Thanks Dr. Dzitzer!!"`,
+    },
+    {
         nameCity: `John G. Mays Landing, NJ`,
         reviewType: `5.0 star rating on Google 02/15/2023`,
         reviewContent: `"Dr. Dzitzer is always so patient and caring while providing the most informed and professional
