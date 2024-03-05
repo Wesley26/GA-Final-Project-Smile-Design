@@ -26,6 +26,13 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `Jo Ann H. Somers Point, NJ`,
+        reviewType: `5.0 star rating on Google 04/04/2024`,
+        reviewContent: `"We highly recommend Dr. Dzitzer. He made us feel comfortable as soon as we walked in.
+        He explained everything in detail. Besides being a professional he is kind and caring.
+        He is the dentist we have been looking for."`,
+    },
+    {
         nameCity: `Mark P. Egg Harbor Township, NJ`,
         reviewType: `5.0 star rating on Yelp 06/20/2023`,
         reviewContent: `"I went to another dental office for an upper denture repair.
