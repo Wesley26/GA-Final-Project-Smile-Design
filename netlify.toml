@@ -4,3 +4,15 @@
   to = "https://smiledesign-nj.netlify.app"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://smiledesign-nj.com"
+  to = "https://smiledesign-nj.netlify.app"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.smiledesign-nj.com"
+  to = "https://smiledesign-nj.netlify.app"
+  status = 301
+  force = true
