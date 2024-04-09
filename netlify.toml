@@ -1,0 +1,6 @@
+##configure redirects in this file
+[[redirects]]
+  from = "https://smiledesign-nj.com*"
+  to = "https://smiledesign-nj.netlify.app"
+  status = 301
+  force = true
