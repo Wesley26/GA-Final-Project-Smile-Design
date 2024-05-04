@@ -26,6 +26,11 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `Lisa F. Egg Harbor Township, NJ`,
+        reviewType: `5.0 star rating on Google 05/01/2024`,
+        reviewContent: `"Dr. Dzitzer is a hidden gem! Excellent work and overall experience top notch."`,
+    },
+    {
         nameCity: `Jo Ann H. Somers Point, NJ`,
         reviewType: `5.0 star rating on Google 04/04/2024`,
         reviewContent: `"We highly recommend Dr. Dzitzer. He made us feel comfortable as soon as we walked in.
