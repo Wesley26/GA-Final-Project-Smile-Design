@@ -35,8 +35,8 @@ let testimoniesWordOfMouth = [
     {
         nameCity: `Carol M. Egg Harbor Township, NJ`,
         reviewType: `5.0 star rating on Google 06/20/2024`,
-        reviewContent: `"I had the privilege to meet Dr. Dzizter for a consultation today. He took the time to patiently and carefully
-        explain what my next steps will be for my dental health. My experience with Dr. Dzizter was very positive and pleasant."`,
+        reviewContent: `"I had the privilege to meet Dr. Dzitzer for a consultation today. He took the time to patiently and carefully
+        explain what my next steps will be for my dental health. My experience with Dr. Dzitzer was very positive and pleasant."`,
     },
     {
         nameCity: `Lisa F. Egg Harbor Township, NJ`,
