@@ -26,6 +26,13 @@ let testimoniesWordOfMouthW = [
 //Google/Yelp reviews
 let testimoniesWordOfMouth = [
     {
+        nameCity: `Carol N. Somers Point, NJ`,
+        reviewType: `5.0 star google review on 07/30/2024`,
+        reviewContent: `"Had the pleasure of meeting with Dr. Michael Dzitzer, DDS about 2 months ago. Dr. Dzitzer explained every step
+        of the way his plan for my dental care from start to finish. Dr. Dzitzer is very kind, caring and always available whenever
+        you need him. I would seriously without any doubt recommend Dr. Dzitzer for all your dental care. He is the best of the best!"`,
+    },
+    {
         nameCity: `Carol M. Egg Harbor Township, NJ`,
         reviewType: `5.0 star rating on Google 06/20/2024`,
         reviewContent: `"I had the privilege to meet Dr. Dzizter for a consultation today. He took the time to patiently and carefully
